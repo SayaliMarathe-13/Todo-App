@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Listifyme
 List your task here and you can mark some as important task
 >>>>>>> origin/main
+=======
+# Listifyme
+List your task here
+>>>>>>> 551103e100af39e0e2c5a2df70f4b8ea9a73aacd
