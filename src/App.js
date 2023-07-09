@@ -10,18 +10,6 @@ import { useState, useEffect } from 'react'
 
 
 function App() {
-  const initialTodos = [
-    {
-        id:1,
-        body:'get bread',
-    },
-
-    {
-        id:2,
-        body:'get butter',
-    },
-
-];
 const[todos, setTodos] = useState(
   () => JSON.parse(localStorage.getItem('initialTodos')) || []);
 
@@ -40,12 +28,9 @@ function addTodo(todo){
   setTodos([...todos, todo]);
 }
 
-
-
-
 const {colorMode, toggleColorMode} = useColorMode()
   return (
-    <VStack p={4}> //If we provided 1 here then padding is 1*4 bits=4 pixel , if 10 then 40
+    <VStack p={4}>
       <IconButton 
       icon={colorMode==='light'?<FaSun />:<FaMoon/>} 
       isRound="true" 
